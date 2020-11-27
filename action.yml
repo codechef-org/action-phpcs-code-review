@@ -1,9 +1,9 @@
-name: 'PHPCS Code Review'
+name: 'PHPCS Code Review for PHP'
 description: 'This will run phpcs on PRs'
 author: 'rtCamp'
 runs:
   using: 'docker'
-  image: 'docker://rtcamp/action-phpcs-code-review:v2.0.3'
+  image: 'docker://codechef-org/action-phpcs-code-review:v2.0.4'
 branding:
   icon: 'check-circle'
   color: 'green'
