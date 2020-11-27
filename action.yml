@@ -1,4 +1,4 @@
-name: 'PHPCS Code Review for PHP'
+name: 'PHPCS Code Review for CodeChef'
 description: 'This will run phpcs on PRs'
 author: 'rtCamp'
 runs:
