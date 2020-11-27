@@ -3,7 +3,7 @@ FROM ubuntu@sha256:3235326357dfb65f1781dbc4df3b834546d8bf914e82cce58e6e6b676e23c
 
 LABEL "com.github.actions.icon"="check-circle"
 LABEL "com.github.actions.color"="green"
-LABEL "com.github.actions.name"="PHPCS Code Review"
+LABEL "com.github.actions.name"="PHPCS Code Review for CodeChef"
 LABEL "com.github.actions.description"="This will run phpcs on PRs"
 
 RUN echo "tzdata tzdata/Areas select Asia" | debconf-set-selections && \
